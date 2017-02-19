@@ -57,6 +57,7 @@ android {
             minifyEnabled false
             shrinkResources true
             proguardFile getDefaultProguardFile('proguard-android.txt')
+            consumerProguardFiles 'annotations.pro'
             signingConfig signingConfigs.release
         }
     }

@@ -15,7 +15,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5' //for bintray_push.gradle
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.1'//for bintray_push.gradle
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'//for bintray_push.gradle
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" //for kotlin
         classpath "org.jetbrains.dokka:dokka-android-gradle-plugin:${dokka_version}" //for kotlin dokka
     }
