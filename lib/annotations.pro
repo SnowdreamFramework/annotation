@@ -16,7 +16,7 @@
 # with these. You can always define your own annotations, if necessary.
 # -libraryjars annotations.jar
 -dontwarn proguard.annotation.**
-#-keep class proguard.annotation.*
+-keep class proguard.annotation.*
 
 
 # The following annotations can be specified with classes and with class
